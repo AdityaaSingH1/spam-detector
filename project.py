@@ -4,6 +4,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 import pandas as pd
 import streamlit as st
+
 readdata = pd.read_csv(
     'spam.csv', encoding='latin-1')
 print(readdata)
